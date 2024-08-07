@@ -1,0 +1,10 @@
+import userRouter from './src/modules/user/user.routes.js'
+import productRouter from './src/modules/product/product.routes.js'
+import brandRouter from './src/modules/brand/brand.routes.js'
+import categoryRouter from './src/modules/category/category.router.js'
+import subCategoryRouter from './src/modules/subcategory/subcategory.routes.js'
+import couponRouter from './src/modules/copon/coupon.routes.js'
+import cartRouter from './src/modules/cart/cart.routes.js'
+import OrderRouter from './src/modules/order/order.router.js'
+import ReviewRouter from './src/modules/Review/Review.Routes.js'
+export {userRouter,productRouter,brandRouter,cartRouter,subCategoryRouter,categoryRouter,couponRouter,OrderRouter,ReviewRouter}
